@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/cryptocrowd2.png";
-import rmtdevImg from "@/public/ozdevs-two.png";
+import rmtdevImg from "@/public/ozdevs.png";
 import wordanalyticsImg from "@/public/asset-trading.png";
 
 export const links = [
@@ -11,10 +11,6 @@ export const links = [
     name: "Home",
     hash: "#home",
   },
-  // {
-  //   name: "About",
-  //   hash: "#about",
-  // },
   {
     name: "Projects",
     hash: "#projects",
@@ -35,28 +31,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Web Developer",
+    location: "M3 Digital",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked on variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "September 2021 - February 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Junior Developer",
+    location: "YouPay",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "YouPay allows shoppers to share Shopify carts anonymously with another person via a generated link, allowing for someone else to pay.",
+    icon: React.createElement(CgWorkAlt),
+    date: "February 2022 - November 2022",
+  },
+  {
+    title: "Software Engineer",
+    location: "The University of Queensland",
+    description: "I work in the application development and support team.",
+    icon: React.createElement(CgWorkAlt),
+    date: "November 2022 - Present",
+  },
+  {
+    title: "Graduated University",
+    location: "Queensland University of Technology",
+    description:
+      "I graduated from QUT with a bachelor's degree in information technology, majoring in computer science.",
+    icon: React.createElement(LuGraduationCap),
+    date: "June 2023",
   },
 ] as const;
 
@@ -64,7 +67,7 @@ export const projectsData = [
   {
     title: "CryptoCrowd",
     description:
-      "Cryptocurrency sentiment analysis on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on tweets.      ",
+      "Cryptocurrency sentiment analysis on tweets. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently tweeting.",
     tags: ["JavaScript", "React", "Express.js", "AWS"],
     imageUrl: corpcommentImg,
   },
@@ -78,21 +81,44 @@ export const projectsData = [
   {
     title: "Company Asset Trading",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Euphorus",
+    description:
+      "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit.",
+    tags: ["React", "JavaScript", "Bootstrap"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Country Happiness API",
+    description:
+      "Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.",
+    tags: ["React", "JavaScript", "Bootstrap"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "Vue.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Express",
+  "PHP",
+  "Laravel",
+  "Symfony",
   "Python",
+  "Java",
+  "HTML",
+  "CSS",
+  "SCSS",
+  "Git",
+  "Bootstrap",
+  "MySQL",
+  "Linux",
+  "AWS",
+  "Shopify",
 ] as const;
