@@ -39,24 +39,25 @@ export const links = [
 export const experiencesData = [
   {
     title: "Web Developer",
-    location: "M3 Digital",
+    location: "M3 Digital - Contract",
     description:
-      "Worked on variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain.",
+      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain.",
     icon: React.createElement(CgWorkAlt),
     date: "September 2021 - February 2022",
   },
   {
     title: "Junior Developer",
-    location: "YouPay",
+    location: "YouPay - Full-time",
     description:
-      "YouPay allows shoppers to share Shopify carts anonymously with another person via a generated link, allowing for someone else to pay.",
+      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs.",
     icon: React.createElement(CgWorkAlt),
     date: "February 2022 - November 2022",
   },
   {
     title: "Software Engineer",
-    location: "The University of Queensland",
-    description: "I work in the application development and support team.",
+    location: "The University of Queensland - Full-time",
+    description:
+      "Full-stack Software Engineer in the Application Development and Support team. Currently working on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
     icon: React.createElement(CgWorkAlt),
     date: "November 2022 - Present",
   },
@@ -76,6 +77,14 @@ export const projectsData = [
     description:
       "Cryptocurrency sentiment analysis on tweets. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently tweeting.",
     tags: ["JavaScript", "React", "Express.js", "AWS"],
+    icons: [
+      "logos:aws",
+      "logos:javascript",
+      "logos:react",
+      "logos:bootstrap",
+      "logos:nodejs",
+      "logos:express",
+    ],
     imageUrl: cryptoCrowdImg,
   },
   {
@@ -83,6 +92,13 @@ export const projectsData = [
     description:
       "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
     tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
+    icons: [
+      "logos:laravel",
+      "logos:php",
+      "logos:javascript",
+      "devicon:tailwindcss",
+      "logos:mysql",
+    ],
     imageUrl: ozdevsImg,
   },
   {
@@ -90,6 +106,7 @@ export const projectsData = [
     description:
       "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
     tags: ["Java", "MariaDB", "Swing"],
+    icons: ["logos:java", "logos:mariadb-icon"],
     imageUrl: assetTradingImg,
   },
   {
@@ -97,6 +114,7 @@ export const projectsData = [
     description:
       "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit.",
     tags: ["JavaScript", "React", "Bootstrap"],
+    icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
     imageUrl: euphorusImg,
   },
   {
@@ -104,6 +122,14 @@ export const projectsData = [
     description:
       "Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.",
     tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL", "Knex"],
+    icons: [
+      "logos:javascript",
+      "logos:nodejs",
+      "logos:swagger",
+      "logos:express",
+      "cib:mysql",
+      "logos:knex",
+    ],
     imageUrl: euphorusBackendImg,
   },
   {
@@ -111,6 +137,7 @@ export const projectsData = [
     description:
       "Computer Auction CRUD application built with Flask that allows users to bid, review, login/register, post new listings, manage listings, search by keyword, and keep a watch list. The website is responsive and uses Bootstrap. Internal server errors and page not found errors are also handled appropriately. The project was developed with a team using Git.",
     tags: ["Python", "Flask", "Bootstrap", "SQLite"],
+    icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
     imageUrl: techprowlImg,
   },
   {
@@ -118,6 +145,7 @@ export const projectsData = [
     description:
       "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
     tags: ["C#"],
+    icons: ["devicon:csharp"],
     imageUrl: taskManagerImg,
   },
   {
@@ -125,6 +153,7 @@ export const projectsData = [
     description:
       "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
     tags: ["Python"],
+    icons: ["logos:python"],
     imageUrl: familyTreeImg,
   },
   {
@@ -132,6 +161,7 @@ export const projectsData = [
     description:
       "Binary game written in C that runs on an Arduino Uno using Tinkercad. The game aims to help users learn binary by challenging them to input different integers in their binary form within a time limit.",
     tags: ["C"],
+    icons: ["devicon:c"],
     imageUrl: binaryGameImg,
   },
 ] as const;
