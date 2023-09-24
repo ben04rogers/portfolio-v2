@@ -5,6 +5,7 @@ import SectionHeading from "./section-heading";
 import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import { Icon } from "@iconify/react";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -20,6 +21,10 @@ const fadeInAnimationVariants = {
   }),
 };
 
+const growOnHover = {
+  scale: 1.2,
+};
+
 export default function Skills() {
   const { ref } = useSectionInView("Skills");
 
@@ -27,23 +32,25 @@ export default function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="mb-28 max-w-[58rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="flex flex-col items-center px-5 py-3 dark:text-white/80"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
+            whileHover={growOnHover}
             viewport={{
               once: true,
             }}
             custom={index}
           >
-            {skill}
+            <Icon icon={skill.icon} style={{ fontSize: "4.25rem" }} />
+            <span className="mt-2">{skill.name}</span>
           </motion.li>
         ))}
       </ul>
