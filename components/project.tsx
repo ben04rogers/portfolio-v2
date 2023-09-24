@@ -48,15 +48,21 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70 mb-3">
             {description}
           </p>
-          {/* <div className="flex">
-            <a href="#" className="flex items-center">
+          <div className="flex">
+            <a
+              href="#"
+              className="flex items-center bg-[#111827] text-white py-1 px-3 rounded-full"
+            >
               <BiLinkExternal className="mr-1" /> Live
             </a>
 
-            <a href="#" className="flex items-center mx-4">
+            <a
+              href="#"
+              className="flex items-center border border-[#111827] py-1 px-3 rounded-full mx-3 text-[#111827]"
+            >
               <FiYoutube className="mr-1" /> Demo
             </a>
-          </div> */}
+          </div>
         </div>
 
         <Image
