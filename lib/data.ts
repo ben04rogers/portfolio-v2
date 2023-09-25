@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cryptoCrowdImg from "@/public/cryptocrowd2.png";
 import ozdevsImg from "@/public/ozdevs.png";
@@ -11,7 +10,6 @@ import techprowlImg from "@/public/techprowl2.png";
 import taskManagerImg from "@/public/task-manager.png";
 import familyTreeImg from "@/public/bfsproject.jpg";
 import binaryGameImg from "@/public//binary-game.png";
-import { Icon } from "@iconify/react";
 
 export const links = [
   {
@@ -86,6 +84,8 @@ export const projectsData = [
       "logos:express",
     ],
     imageUrl: cryptoCrowdImg,
+    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
+    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
   },
   {
     title: "OzDevs",
@@ -100,6 +100,7 @@ export const projectsData = [
       "logos:mysql",
     ],
     imageUrl: ozdevsImg,
+    urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
   },
   {
     title: "Company Asset Trading",
@@ -108,6 +109,7 @@ export const projectsData = [
     tags: ["Java", "MariaDB", "Swing"],
     icons: ["logos:java", "logos:mariadb-icon"],
     imageUrl: assetTradingImg,
+    githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
   },
   {
     title: "Euphorus",
@@ -116,6 +118,7 @@ export const projectsData = [
     tags: ["JavaScript", "React", "Bootstrap"],
     icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
     imageUrl: euphorusImg,
+    githubLink: "https://github.com/ben04rogers/cab230assignment1",
   },
   {
     title: "Country Happiness API",
@@ -131,6 +134,8 @@ export const projectsData = [
       "logos:knex",
     ],
     imageUrl: euphorusBackendImg,
+    githubLink: "https://github.com/ben04rogers/cab230assignment2",
+    urlLink: "https://salty-refuge-23420.herokuapp.com/",
   },
   {
     title: "Techprowl Computer Auction",
@@ -139,6 +144,8 @@ export const projectsData = [
     tags: ["Python", "Flask", "Bootstrap", "SQLite"],
     icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
     imageUrl: techprowlImg,
+    githubLink: "https://github.com/ben04rogers/computer-auction",
+    urlLink: "https://techprowl.herokuapp.com",
   },
   {
     title: "Task Manager Console App",
@@ -147,6 +154,7 @@ export const projectsData = [
     tags: ["C#"],
     icons: ["devicon:csharp"],
     imageUrl: taskManagerImg,
+    githubLink: "https://github.com/ben04rogers/task-manager",
   },
   {
     title: "Family Tree Shortest Path",
@@ -155,6 +163,8 @@ export const projectsData = [
     tags: ["Python"],
     icons: ["logos:python"],
     imageUrl: familyTreeImg,
+    githubLink: "https://github.com/ben04rogers/breadth-first-search",
+    demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
   },
   {
     title: "Arduino Binary Game",
@@ -163,6 +173,8 @@ export const projectsData = [
     tags: ["C"],
     icons: ["devicon:c"],
     imageUrl: binaryGameImg,
+    githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
+    demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
   },
 ] as const;
 
