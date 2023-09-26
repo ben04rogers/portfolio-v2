@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "Web Developer",
     location: "M3 Digital - Contract",
     description:
-      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain.",
+      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
     icon: React.createElement(CgWorkAlt),
     date: "September 2021 - February 2022",
   },
@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Junior Developer",
     location: "YouPay - Full-time",
     description:
-      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs.",
+      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
     icon: React.createElement(CgWorkAlt),
     date: "February 2022 - November 2022",
   },
@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "The University of Queensland - Full-time",
     description:
-      "Full-stack Software Engineer in the Application Development and Support team. Currently working on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
+      "Full-stack software engineer in the Application Development and Support team. Currently working on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
     icon: React.createElement(CgWorkAlt),
     date: "November 2022 - Present",
   },
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Graduated University",
     location: "Queensland University of Technology",
     description:
-      "I graduated from QUT with a bachelor's degree in information technology, majoring in computer science.",
+      "I completed a Bachelor's degree in Information Technology from QUT, with a major in Computer Science, complemented by minors in Networks & Security and Mobile Applications. I graduated with distinction and a GPA of 6.2/7.",
     icon: React.createElement(LuGraduationCap),
     date: "June 2023",
   },
@@ -124,14 +124,13 @@ export const projectsData = [
     title: "Country Happiness API",
     description:
       "Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.",
-    tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL", "Knex"],
+    tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
     icons: [
       "logos:javascript",
       "logos:nodejs",
       "logos:swagger",
       "logos:express",
       "cib:mysql",
-      "logos:knex",
     ],
     imageUrl: euphorusBackendImg,
     githubLink: "https://github.com/ben04rogers/cab230assignment2",
