@@ -5,8 +5,7 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BiLinkExternal } from "react-icons/bi";
-import { FiYoutube } from "react-icons/fi";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
 import { Icon } from "@iconify/react";
 
 type ProjectProps = typeof projectsData[number];
@@ -64,25 +63,25 @@ export default function Project({
               </a>
             )}
 
-            {githubLink && (
-              <a
-                href={githubLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center bg-[#111827] text-white py-1 px-3 mr-2 rounded-full"
-              >
-                <AiFillGithub className="mr-1" /> GitHub
-              </a>
-            )}
-
             {demoLink && (
               <a
                 href={demoLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center border border-[#111827] py-1 px-3 rounded-full mr-2 text-[#111827]"
+                className="flex items-center bg-[#111827] text-white py-1 px-3 mr-2 rounded-full"
               >
-                <FiYoutube className="mr-1" /> Demo
+                <AiFillYoutube className="mr-1" /> Demo
+              </a>
+            )}
+
+            {githubLink && (
+              <a
+                href={githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center border border-[#111827] py-1 px-3 rounded-full mr-2 text-[#111827] dark:border-white dark:text-white"
+              >
+                <AiFillGithub className="mr-1" /> GitHub
               </a>
             )}
           </div>
