@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BiLinkExternal } from "react-icons/bi";
 import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
@@ -12,7 +12,7 @@ type ProjectProps = {
   description: string;
   tags: readonly string[];
   icons: readonly string[];
-  imageUrl: string;
+  imageUrl: StaticImageData;
   githubLink?: string;
   demoLink?: string;
   urlLink?: string;
