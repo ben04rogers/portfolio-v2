@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import cryptoCrowdImg from "@/public/cryptocrowd2.png";
 import ozdevsImg from "@/public/ozdevs.png";
-import assetTradingImg from "@/public/asset-trading.png";
+// import assetTradingImg from "@/public/asset-trading.png";
 import euphorusImg from "@/public/euphorus.png";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
 import techprowlImg from "@/public/techprowl2.png";
@@ -108,7 +108,7 @@ export const projectsData = [
       "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
     tags: ["Java", "MariaDB", "Swing"],
     icons: ["logos:java", "logos:mariadb-icon"],
-    imageUrl: assetTradingImg,
+    imageUrl: ozdevsImg,
     githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
   },
   {
