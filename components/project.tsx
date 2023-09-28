@@ -11,7 +11,7 @@ type ProjectProps = {
   title: string;
   description: string;
   tags: readonly string[];
-  icons: string[];
+  icons: readonly string[];
   imageUrl: string;
   githubLink?: string;
   demoLink?: string;
