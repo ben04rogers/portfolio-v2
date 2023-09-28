@@ -13,3 +13,7 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.vertical-timeline {
+  padding: 0 !important;
+}
