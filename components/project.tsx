@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef } from "react";
-import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BiLinkExternal } from "react-icons/bi";
@@ -11,7 +10,7 @@ import { Icon } from "@iconify/react";
 type ProjectProps = {
   title: string;
   description: string;
-  tags: string[];
+  tags: readonly string[];
   icons: string[];
   imageUrl: string;
   githubLink?: string;
