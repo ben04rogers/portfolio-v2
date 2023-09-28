@@ -8,7 +8,16 @@ import { BiLinkExternal } from "react-icons/bi";
 import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
 import { Icon } from "@iconify/react";
 
-type ProjectProps = typeof projectsData[number];
+type ProjectProps = {
+  title: string;
+  description: string;
+  tags: string[];
+  icons: string[];
+  imageUrl: string;
+  githubLink?: string;
+  demoLink?: string;
+  urlLink?: string;
+};
 
 export default function Project({
   title,
@@ -79,7 +88,7 @@ export default function Project({
                 href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center border border-[#111827] py-1 px-3 rounded-full mr-2 text-[#111827] dark:border-white dark:text-white"
+                className="flex items-center border- border-[#111827] py-1 px-3 rounded-full mr-2 text-[#111827] dark:border-white dark:text-white"
               >
                 <AiFillGithub className="mr-1" /> GitHub
               </a>
