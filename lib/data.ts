@@ -123,7 +123,7 @@ export const projectsData = [
   {
     title: "Country Happiness API",
     description:
-      "Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.",
+      "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
     tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
     icons: [
       "logos:javascript",
