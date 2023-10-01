@@ -14,7 +14,7 @@ export default function Education() {
     <motion.section
       id="education"
       ref={ref}
-      className="mb-20 sm:mb-28 scroll-mt-28"
+      className="mb-20 sm:mb-28 scroll-mt-28 w-full md:w-[700px]"
       initial={{
         opacity: 0,
       }}
@@ -36,11 +36,11 @@ export default function Education() {
         </div>
 
         <div>
-          <p className="text-lg font-medium">2022</p>
-          <p className="my-1">
-            Queensland University of Technology - Bachelor of Information
-            Technology
+          <p className="text-lg font-medium">
+            Bachelor of Information Technology
           </p>
+          <p>Queensland University of Technology</p>
+          <p className="mt-1">Graduated in 2023</p>
           <p className="my-1">GPA 6.2/7</p>
           <ul className="list-disc pl-6">
             <li>Major in Computer Science</li>
