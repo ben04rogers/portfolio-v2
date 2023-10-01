@@ -95,7 +95,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          LinkedIn <BsLinkedin />
+          LinkedIn <BsLinkedin className="opacity-70" />
         </Link>
 
         {/* <a
