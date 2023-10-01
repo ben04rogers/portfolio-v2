@@ -17,3 +17,18 @@ html.dark {
 .vertical-timeline {
   padding: 0 !important;
 }
+
+.particles-section {
+  position: relative;
+  overflow: hidden;
+}
+
+#tsparticles {
+  z-index: -1;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
