@@ -28,7 +28,7 @@ export default function Education() {
         once: true,
       }}
     >
-      <SectionHeading>Education</SectionHeading>
+      <SectionHeading>My Education</SectionHeading>
 
       <div className="mt-4 flex gap-6 bg-gray-100 border border-black/5 rounded-lg pt-4 pb-7 px-5 md:p-10">
         <div>
