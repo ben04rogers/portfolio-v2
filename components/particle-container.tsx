@@ -26,7 +26,7 @@ const ParticleContainer: React.FC = () => {
       options={{
         background: {
           color: {
-            value: "#181a1b",
+            value: "#111827",
           },
         },
         fpsLimit: 120,
