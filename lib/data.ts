@@ -73,7 +73,7 @@ export const projectsData = [
   {
     title: "CryptoCrowd",
     description:
-      "Cryptocurrency sentiment analysis on tweets. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently tweeting.",
+      "Cryptocurrency sentiment analysis on tweets. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently tweeting. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
     tags: ["JavaScript", "React", "Express.js", "AWS"],
     icons: [
       "logos:aws",
