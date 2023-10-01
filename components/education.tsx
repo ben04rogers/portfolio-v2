@@ -30,7 +30,7 @@ export default function Education() {
     >
       <SectionHeading>My Education</SectionHeading>
 
-      <div className="mt-4 flex gap-6 bg-gray-100 border border-black/5 rounded-lg pt-4 pb-7 px-5 md:p-10">
+      <div className="mt-4 flex gap-6 border border-black/5 rounded-lg pt-4 pb-7 px-5 md:p-10 dark:bg-white/10 dark:hover:bg-white/20">
         <div>
           <Image src={qutLogo} alt="QUT" width="150" />
         </div>

@@ -63,14 +63,6 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "November 2022 - Present",
   },
-  {
-    title: "Graduated from University",
-    location: "Queensland University of Technology (QUT)",
-    description:
-      "I completed a Bachelor's degree in Information Technology from QUT, with a major in Computer Science, complemented by minors in Networks & Security and Mobile Applications. I graduated with distinction and a GPA of 6.2/7.",
-    icon: React.createElement(LuGraduationCap),
-    date: "June 2023",
-  },
 ] as const;
 
 export const projectsData = [
