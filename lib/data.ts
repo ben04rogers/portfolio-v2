@@ -80,7 +80,6 @@ export const projectsData = [
       "logos:javascript",
       "logos:react",
       "logos:bootstrap",
-      "logos:nodejs",
       "logos:express",
     ],
     imageUrl: cryptoCrowdImg,
@@ -125,13 +124,7 @@ export const projectsData = [
     description:
       "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
     tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
-    icons: [
-      "logos:javascript",
-      "logos:nodejs",
-      "logos:swagger",
-      "logos:express",
-      "cib:mysql",
-    ],
+    icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
     imageUrl: euphorusBackendImg,
     githubLink: "https://github.com/ben04rogers/cab230assignment2",
     urlLink: "https://salty-refuge-23420.herokuapp.com/",

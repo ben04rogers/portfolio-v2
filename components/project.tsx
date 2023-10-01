@@ -87,9 +87,10 @@ export default function Project({
                 href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center border border-[#111827] py-1 px-3 rounded-full mr-2 text-[#111827] dark:border-white dark:text-white"
+                className="flex items-center border border-[#111827] py-1 px-3 rounded-full mr-2 text-[#111827] dark:border-white dark:text-white dark:border-opacity-40"
               >
-                <AiFillGithub className="mr-1" /> GitHub
+                <AiFillGithub className="mr-1 opacity-70" />{" "}
+                <span className="opacity-70">GitHub</span>
               </a>
             )}
           </div>
