@@ -127,7 +127,7 @@ export const projectsData = [
     icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
     imageUrl: euphorusBackendImg,
     githubLink: "https://github.com/ben04rogers/cab230assignment2",
-    urlLink: "https://salty-refuge-23420.herokuapp.com/",
+    // urlLink: "https://salty-refuge-23420.herokuapp.com/",
   },
   {
     title: "Techprowl Computer Auction",
