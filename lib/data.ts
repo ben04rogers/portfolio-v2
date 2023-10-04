@@ -109,7 +109,7 @@ export const projectsData = [
   {
     title: "Euphorus",
     description:
-      "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit.",
+      "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
     tags: ["JavaScript", "React", "Bootstrap"],
     icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
     imageUrl: euphorusImg,
@@ -128,7 +128,7 @@ export const projectsData = [
   {
     title: "Techprowl Computer Auction",
     description:
-      "Computer Auction CRUD application built with Flask that allows users to bid, review, login/register, post new listings, manage listings, search by keyword, and keep a watch list. The website is responsive and uses Bootstrap. Internal server errors and page not found errors are also handled appropriately. The project was developed with a team using Git.",
+      "Computer auction application built with Flask. The site allows users to register, bid on items, leave reviews, post new listings, manage listings, search by keyword, and keep a watch list. ",
     tags: ["Python", "Flask", "Bootstrap", "SQLite"],
     icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
     imageUrl: techprowlImg,
