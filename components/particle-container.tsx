@@ -33,7 +33,7 @@ const ParticleContainer: React.FC = () => {
         interactivity: {
           events: {
             onClick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
             onHover: {
