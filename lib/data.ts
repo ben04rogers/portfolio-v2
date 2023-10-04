@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
 import cryptoCrowdImg from "@/public/cryptocrowd2.png";
 import ozdevsImg from "@/public/ozdevs.png";
 import assetTradingImg from "@/public/asset-trading.jpg";
-import euphorusImg from "@/public/euphorus.png";
+import euphorusImg from "@/public/euphorus-two.png";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
 import techprowlImg from "@/public/techprowl2.png";
 import taskManagerImg from "@/public/task-manager.png";
