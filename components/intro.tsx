@@ -80,11 +80,11 @@ export default function Intro() {
         }}
       >
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-[#]"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
           href="https://github.com/ben04rogers"
           target="_blank"
         >
-          GitHub <FaGithub className="opacity-60" />
+          GitHub <FaGithub className="opacity-70" />
         </a>
 
         <a
