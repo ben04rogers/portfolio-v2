@@ -80,40 +80,21 @@ export default function Intro() {
         }}
       >
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-[#29303d]"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-[#]"
           href="https://github.com/ben04rogers"
           target="_blank"
         >
           GitHub <FaGithub className="opacity-60" />
         </a>
 
-        <Link
-          href="#contact"
-          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border border-white border-opacity-40"
-          onClick={() => {
-            setActiveSection("Contact");
-            setTimeOfLastClick(Date.now());
-          }}
-        >
-          <span className="opacity-70">LinkedIn</span>
-          <BsLinkedin className="opacity-70" />
-        </Link>
-
-        {/* <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        <a
+          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
           href="https://www.linkedin.com/in/ben-rogers-dev/"
           target="_blank"
         >
-          <BsLinkedin />
+          <span className="opacity-70">LinkedIn</span>
+          <BsLinkedin className="opacity-70" />
         </a>
-
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/ben04rogers"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a> */}
       </motion.div>
     </section>
   );
