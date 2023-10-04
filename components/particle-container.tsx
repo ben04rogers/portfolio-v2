@@ -7,13 +7,12 @@ import { loadSlim } from "tsparticles-slim";
 
 const ParticleContainer: React.FC = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
-    console.log(engine);
     await loadSlim(engine);
   }, []);
 
   const particlesLoaded = useCallback(
     async (container: Container | undefined) => {
-      await console.log(container);
+      await console.log("Particles.js loaded");
     },
     []
   );
