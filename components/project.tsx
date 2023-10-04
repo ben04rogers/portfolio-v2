@@ -65,7 +65,7 @@ export default function Project({
                 href={urlLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center bg-[#111827] text-white py-1 px-3 mr-2 rounded-full"
+                className="flex items-center bg-[#111827] text-white py-1 px-3 mr-2 rounded-full hover:scale-105"
               >
                 <BiLinkExternal className="mr-1" /> Live
               </a>
@@ -76,7 +76,7 @@ export default function Project({
                 href={demoLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center bg-[#111827] text-white py-1 px-3 mr-2 rounded-full"
+                className="flex items-center bg-[#111827] text-white py-1 px-3 mr-2 rounded-full hover:scale-105"
               >
                 <AiFillYoutube className="mr-1" /> Demo
               </a>
@@ -87,7 +87,7 @@ export default function Project({
                 href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center border border-[#111827] py-1 px-3 rounded-full mr-2 text-[#111827] dark:border-white dark:text-white dark:border-opacity-40"
+                className="flex items-center border border-[#111827] py-1 px-3 rounded-full mr-2 text-[#111827] hover:scale-105 dark:border-white dark:text-white dark:border-opacity-40"
               >
                 <AiFillGithub className="mr-1 opacity-70" />{" "}
                 <span className="opacity-70">GitHub</span>
