@@ -10,7 +10,7 @@ import { Toaster } from "react-hot-toast";
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ben Rogers | Software Developer",
+  title: "Ben Rogers | Software Engineer",
   description: "Software engineer at The University of Queensland.",
 };
 
