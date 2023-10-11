@@ -8,7 +8,7 @@ import qutLogo from "@/public/qut-Logo.png";
 import Image from "next/image";
 
 export default function Education() {
-  const { ref } = useSectionInView("Contact");
+  const { ref } = useSectionInView("Education");
 
   return (
     <motion.section
