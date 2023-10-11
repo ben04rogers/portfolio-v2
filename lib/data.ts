@@ -95,6 +95,7 @@ export const projectsData = [
     ],
     imageUrl: ozdevsImg,
     urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
+    githubLink: "https://github.com/ben04rogers/ozdevs-v2",
   },
   {
     title: "Company Asset Trading",
