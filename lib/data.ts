@@ -179,10 +179,6 @@ export const skillsData = [
     icon: "logos:react",
   },
   {
-    name: "Vue.js",
-    icon: "logos:vue",
-  },
-  {
     name: "Node.js",
     icon: "logos:nodejs-icon",
   },
