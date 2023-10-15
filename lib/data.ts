@@ -223,10 +223,6 @@ export const skillsData = [
     icon: "logos:git-icon",
   },
   {
-    name: "Bootstrap",
-    icon: "logos:bootstrap",
-  },
-  {
     name: "MySQL",
     icon: "logos:mysql",
   },
@@ -237,6 +233,14 @@ export const skillsData = [
   {
     name: "AWS",
     icon: "logos:aws",
+  },
+  {
+    name: "Docker",
+    icon: "logos:docker-icon",
+  },
+  {
+    name: "Jenkins",
+    icon: "devicon:jenkins",
   },
   {
     name: "Shopify",
