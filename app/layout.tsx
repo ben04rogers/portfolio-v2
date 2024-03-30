@@ -11,7 +11,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Ben Rogers | Software Engineer",
-  description: "Software engineer at The University of Queensland.",
+  description: "Software engineer at Humanforce.",
 };
 
 export default function RootLayout({

@@ -58,9 +58,9 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "The University of Queensland - Full-time",
     description:
-      "Full-stack software engineer in the Application Development and Support team. Currently working on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
+      "Full-stack software engineer in the Application Development and Support team. Worked on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
     icon: React.createElement(CgWorkAlt),
-    date: "November 2022 - Present",
+    date: "November 2022 - January 2024",
   },
 ] as const;
 

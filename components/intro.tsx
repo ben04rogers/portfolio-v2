@@ -66,9 +66,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Ben.</span> I'm a{" "}
         <span className="font-bold">software engineer</span> at{" "}
-        <span className="font-bold">The University of Queensland</span>. I spend
-        my day working on web apps with TypeScript, React.js, PHP, Symfony and
-        AWS.
+        <span className="font-bold">Humanforce</span> in Brisbane. I'm currently working with Laravel, React.js, GraphQL, and AWS.
       </motion.h1>
 
       <motion.div

@@ -16,6 +16,7 @@ export const sendEmail = async (formData: FormData) => {
       error: "Invalid sender email",
     };
   }
+
   if (!validateString(message, 5000)) {
     return {
       error: "Invalid message",
