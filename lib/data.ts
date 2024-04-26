@@ -48,7 +48,7 @@ export const experiencesData = [
   },
   {
     title: "Junior Developer",
-    location: "YouPay - Full-time",
+    location: "YouPay",
     description:
       "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
     icon: React.createElement(CgWorkAlt),
@@ -56,11 +56,19 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer",
-    location: "The University of Queensland - Full-time",
+    location: "The University of Queensland",
     description:
       "Full-stack software engineer in the Application Development and Support team. Worked on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
     icon: React.createElement(CgWorkAlt),
     date: "November 2022 - January 2024",
+  },
+  {
+    title: "Software Engineer",
+    location: "Humanforce",
+    description:
+      "Software engineer in the intelliHR platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
+    icon: React.createElement(CgWorkAlt),
+    date: "January 2024 - Present",
   },
 ] as const;
 
