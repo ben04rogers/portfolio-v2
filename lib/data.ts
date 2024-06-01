@@ -76,7 +76,7 @@ export const projectsData = [
   {
     title: "CryptoCrowd",
     description:
-      "Cryptocurrency sentiment analysis on tweets. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently tweeting. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
+      "Cryptocurrency sentiment analysis website based on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently posting on Twitter. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
     tags: ["JavaScript", "React", "Express.js", "AWS"],
     icons: [
       "logos:aws",
@@ -114,24 +114,24 @@ export const projectsData = [
     imageUrl: assetTradingImg,
     githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
   },
-  {
-    title: "Euphorus",
-    description:
-      "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
-    tags: ["JavaScript", "React", "Bootstrap"],
-    icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
-    imageUrl: euphorusImg,
-    githubLink: "https://github.com/ben04rogers/cab230assignment1",
-  },
-  {
-    title: "Country Happiness API",
-    description:
-      "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
-    tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
-    icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
-    imageUrl: euphorusBackendImg,
-    githubLink: "https://github.com/ben04rogers/cab230assignment2",
-  },
+  // {
+  //   title: "Euphorus",
+  //   description:
+  //     "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
+  //   tags: ["JavaScript", "React", "Bootstrap"],
+  //   icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
+  //   imageUrl: euphorusImg,
+  //   githubLink: "https://github.com/ben04rogers/cab230assignment1",
+  // },
+  // {
+  //   title: "Country Happiness API",
+  //   description:
+  //     "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
+  //   tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
+  //   icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
+  //   imageUrl: euphorusBackendImg,
+  //   githubLink: "https://github.com/ben04rogers/cab230assignment2",
+  // },
   {
     title: "Techprowl Computer Auction",
     description:
