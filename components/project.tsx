@@ -101,11 +101,8 @@ export default function Project({
           alt="Project I worked on"
           quality={95}
           className="absolute hidden lg:block top-[60px] -right-10 w-[28.25rem] rounded-t-lg shadow-2xl scale-[1.0]
-          transition 
+          transition
           lg:scale-[1.1]
-          group-hover:-translate-x-3
-          group-hover:translate-y-3
-          group-hover:-rotate-2
           "
         />
       </section>
