@@ -39,20 +39,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer",
-    location: "M3 Digital - Contract",
+    title: "Software Engineer",
+    location: "Humanforce",
     description:
-      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
+      "Software engineer in the intelliHR platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
     icon: React.createElement(CgWorkAlt),
-    date: "September 2021 - February 2022",
-  },
-  {
-    title: "Junior Developer",
-    location: "YouPay",
-    description:
-      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
-    icon: React.createElement(CgWorkAlt),
-    date: "February 2022 - November 2022",
+    date: "January 2024 - Present",
   },
   {
     title: "Software Engineer",
@@ -63,12 +55,20 @@ export const experiencesData = [
     date: "November 2022 - January 2024",
   },
   {
-    title: "Software Engineer",
-    location: "Humanforce",
+    title: "Junior Developer",
+    location: "YouPay",
     description:
-      "Software engineer in the intelliHR platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
+      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
     icon: React.createElement(CgWorkAlt),
-    date: "January 2024 - Present",
+    date: "February 2022 - November 2022",
+  },
+  {
+    title: "Web Developer",
+    location: "M3 Digital - Contract",
+    description:
+      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
+    icon: React.createElement(CgWorkAlt),
+    date: "September 2021 - February 2022",
   },
 ] as const;
 
@@ -175,20 +175,8 @@ export const projectsData = [
 
 export const skillsData = [
   {
-    name: "JavaScript",
-    icon: "logos:javascript",
-  },
-  {
     name: "TypeScript",
     icon: "logos:typescript-icon",
-  },
-  {
-    name: "React",
-    icon: "logos:react",
-  },
-  {
-    name: "Node.js",
-    icon: "logos:nodejs-icon",
   },
   {
     name: "PHP",
@@ -199,16 +187,24 @@ export const skillsData = [
     icon: "logos:laravel",
   },
   {
+    name: "React",
+    icon: "logos:react",
+  },
+  {
+    name: "GraphQL",
+    icon: "logos:graphql",
+  },
+  {
+    name: "Node.js",
+    icon: "logos:nodejs-icon",
+  },
+  {
     name: "Symfony",
     icon: "logos:symfony",
   },
   {
     name: "Python",
     icon: "logos:python",
-  },
-  {
-    name: "Java",
-    icon: "logos:java",
   },
   {
     name: "HTML",
@@ -231,6 +227,10 @@ export const skillsData = [
     icon: "logos:mysql",
   },
   {
+    name: "PostgreSQL",
+    icon: "logos:postgresql",
+  },
+  {
     name: "Linux",
     icon: "flat-color-icons:linux",
   },
@@ -245,9 +245,5 @@ export const skillsData = [
   {
     name: "Jenkins",
     icon: "devicon:jenkins",
-  },
-  {
-    name: "Shopify",
-    icon: "logos:shopify",
   },
 ] as const;
