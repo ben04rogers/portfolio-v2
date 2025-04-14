@@ -65,7 +65,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Ben.</span> I'm a{" "}
         <span className="font-bold">software engineer</span> at{" "}
-        <span className="font-bold">Humanforce</span> in Brisbane. I'm currently working with Laravel, React.js, GraphQL, and AWS.
+        <a href="https://www.humanforce.com" className="font-bold underline" target='_blank' style={{ textUnderlineOffset: '4px' }}>Humanforce</a> in the platform team. I'm currently working with Laravel, React.js, Node.js, GraphQL, and AWS.
       </motion.h1>
 
       <motion.div
