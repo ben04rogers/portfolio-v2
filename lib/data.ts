@@ -55,7 +55,7 @@ export const experiencesData = [
     date: "November 2022 - January 2024",
   },
   {
-    title: "Junior Developer",
+    title: "Developer",
     location: "YouPay",
     description:
       "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
