@@ -102,7 +102,7 @@ export const projectsData = [
       "logos:mysql",
     ],
     imageUrl: ozdevsImg,
-    urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
+    // urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
     githubLink: "https://github.com/ben04rogers/ozdevs-v2",
   },
   {
@@ -140,7 +140,7 @@ export const projectsData = [
     icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
     imageUrl: techprowlImg,
     githubLink: "https://github.com/ben04rogers/computer-auction",
-    urlLink: "https://techprowl.herokuapp.com",
+    // urlLink: "https://techprowl.herokuapp.com",
   },
   {
     title: "Task Manager Console App",
@@ -152,9 +152,9 @@ export const projectsData = [
     githubLink: "https://github.com/ben04rogers/task-manager",
   },
   {
-    title: "Family Tree Shortest Path",
+    title: "Family Tree Relationship Path Finder",
     description:
-      "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
+      "Python program that computes the shortest paths in a family tree using a breadth-first search algorithm. Problem was to calculate the shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
     tags: ["Python"],
     icons: ["logos:python"],
     imageUrl: familyTreeImg,
