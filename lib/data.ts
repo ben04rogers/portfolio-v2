@@ -42,7 +42,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Humanforce",
     description:
-      "Software engineer in the intelliHR platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
+      "Software engineer in the Humanforce platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
     icon: React.createElement(CgWorkAlt),
     date: "January 2024 - Present",
   },
@@ -173,77 +173,80 @@ export const projectsData = [
   },
 ] as const;
 
+// lib/data.ts
 export const skillsData = [
   {
-    name: "TypeScript",
-    icon: "logos:typescript-icon",
+    category: "Backend",
+    skills: [
+      { name: "TypeScript", icon: "logos:typescript-icon" },
+      { name: "PHP", icon: "logos:php" },
+      { name: "C#", icon: "logos:c-sharp" },
+      { name: "Python", icon: "logos:python" },
+      { name: "Laravel", icon: "logos:laravel" },
+      { name: "Node.js", icon: "logos:nodejs-icon" },
+      { name: "SQL" },
+      { name: "PostgreSQL", icon: "logos:postgresql" },
+      { name: "MySQL", icon: "logos:mysql" },
+      { name: "DynamoDB", icon: "logos:aws-dynamodb" },
+      { name: "REST APIs", icon: "material-symbols:api-outline" },
+      { name: "GraphQL", icon: "logos:graphql" },
+      { name: "Elasticsearch", icon: "logos:elasticsearch" },
+      { name: "Logstash", icon: "logos:logstash" },
+    ],
+  }, 
+  {
+    category: "Frontend",
+    skills: [
+      { name: "React.js", icon: "logos:react" },
+      { name: "Next.js", icon: "logos:nextjs-icon" },
+      { name: "Redux", icon: "logos:redux" },
+      { name: "HTML5", icon: "logos:html-5" },
+      { name: "CSS3", icon: "logos:css-3" },
+      { name: "Tailwind CSS", icon: "logos:tailwindcss-icon" },
+      { name: "Storybook", icon: "logos:storybook-icon" },
+      { name: "Vite", icon: "logos:vitejs" },
+      { name: "Webpack", icon: "logos:webpack" },
+      { name: "Single Page Applications" },
+      { name: "Responsive Design" },
+      { name: "Performance Optimization", icon: "material-symbols:speed" }
+    ],
+  }, 
+  {
+    category: "DevOps",
+    skills: [
+      { name: "AWS", icon: "logos:aws" },
+      { name: "Docker", icon: "logos:docker-icon" },
+      { name: "Kubernetes", icon: "logos:kubernetes" },
+      { name: "Jenkins", icon: "logos:jenkins" },
+      { name: "GitHub Actions", icon: "logos:github-actions" },
+      { name: "Linux", icon: "logos:linux-tux" },
+      { name: "CI/CD" },
+      { name: "Infrastructure as Code" },
+    ],
   },
   {
-    name: "PHP",
-    icon: "logos:php",
+    category: "Practices",
+    skills: [
+      { name: "Database design" },
+      { name: "Event‑driven architecture" },
+      { name: "Agile" },
+      { name: "Scrum" },
+      { name: "Object Oriented Programming (OOP)" },
+      { name: "Test Driven Development (TDD)" },
+      { name: "Domain-Driven Design (DDD)" },
+    ],
   },
   {
-    name: "Laravel",
-    icon: "logos:laravel",
+    category: "Tools",
+    skills: [
+      { name: "Git", icon: "logos:git-icon" },
+      { name: "GitHub", icon: "logos:github-icon" },
+      { name: "Jira", icon: "logos:jira" },
+      { name: "Postman", icon: "logos:postman-icon" },
+      { name: "Sentry", icon: "logos:sentry-icon" },
+      { name: "New Relic", icon: "logos:new-relic-icon" },
+      { name: "Grafana", icon: "logos:grafana" },
+    ],
   },
-  {
-    name: "React",
-    icon: "logos:react",
-  },
-  {
-    name: "GraphQL",
-    icon: "logos:graphql",
-  },
-  {
-    name: "Node.js",
-    icon: "logos:nodejs-icon",
-  },
-  {
-    name: "Symfony",
-    icon: "logos:symfony",
-  },
-  {
-    name: "Python",
-    icon: "logos:python",
-  },
-  {
-    name: "HTML",
-    icon: "vscode-icons:file-type-html",
-  },
-  {
-    name: "CSS",
-    icon: "vscode-icons:file-type-css",
-  },
-  {
-    name: "SCSS",
-    icon: "logos:sass",
-  },
-  {
-    name: "Git",
-    icon: "logos:git-icon",
-  },
-  {
-    name: "MySQL",
-    icon: "logos:mysql",
-  },
-  {
-    name: "PostgreSQL",
-    icon: "logos:postgresql",
-  },
-  {
-    name: "Linux",
-    icon: "flat-color-icons:linux",
-  },
-  {
-    name: "AWS",
-    icon: "logos:aws",
-  },
-  {
-    name: "Docker",
-    icon: "logos:docker-icon",
-  },
-  {
-    name: "Jenkins",
-    icon: "devicon:jenkins",
-  },
-] as const;
+];
+
