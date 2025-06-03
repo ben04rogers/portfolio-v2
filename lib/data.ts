@@ -203,12 +203,9 @@ export const skillsData = [
       { name: "HTML5", icon: "logos:html-5" },
       { name: "CSS3", icon: "logos:css-3" },
       { name: "Tailwind CSS", icon: "logos:tailwindcss-icon" },
-      { name: "Storybook", icon: "logos:storybook-icon" },
-      { name: "Vite", icon: "logos:vitejs" },
       { name: "Webpack", icon: "logos:webpack" },
       { name: "Single Page Applications" },
-      { name: "Responsive Design" },
-      { name: "Performance Optimization", icon: "material-symbols:speed" }
+      { name: "Responsive Design" }
     ],
   }, 
   {
@@ -233,7 +230,6 @@ export const skillsData = [
       { name: "Scrum" },
       { name: "Object Oriented Programming (OOP)" },
       { name: "Test Driven Development (TDD)" },
-      { name: "Domain-Driven Design (DDD)" },
     ],
   },
   {
@@ -241,8 +237,6 @@ export const skillsData = [
     skills: [
       { name: "Git", icon: "logos:git-icon" },
       { name: "GitHub", icon: "logos:github-icon" },
-      { name: "Jira", icon: "logos:jira" },
-      { name: "Postman", icon: "logos:postman-icon" },
       { name: "Sentry", icon: "logos:sentry-icon" },
       { name: "New Relic", icon: "logos:new-relic-icon" },
       { name: "Grafana", icon: "logos:grafana" },
