@@ -133,7 +133,7 @@ export const projectsData = [
   //   githubLink: "https://github.com/ben04rogers/cab230assignment2",
   // },
   {
-    title: "Techprowl Computer Auction",
+    title: "Computer Auction",
     description:
       "Computer auction application built with Flask. The site allows users to register, bid on items, leave reviews, post new listings, manage listings, search by keyword, and keep a watch list. ",
     tags: ["Python", "Flask", "Bootstrap", "SQLite"],
