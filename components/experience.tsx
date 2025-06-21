@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import SectionHeading from "./section-heading";
 import {
@@ -10,6 +9,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import Image from "next/image";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -37,10 +37,27 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={item.icon}
+              icon={
+                item.logo ? (
+                  <div className="flex items-center justify-center w-full h-full">
+                    <Image
+                      src={item.logo}
+                      alt={`${item.location} logo`}
+                      width={40}
+                      height={40}
+                      className="rounded-full object-contain"
+                    />
+                  </div>
+                ) : (
+                  item.icon
+                )
+              }
               iconStyle={{
                 background: theme === "light" ? "white" : "#1d2432",
                 fontSize: "1.5rem",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>

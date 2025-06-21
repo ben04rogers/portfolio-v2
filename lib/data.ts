@@ -9,6 +9,10 @@ import techprowlImg from "@/public/techprowl-two.png";
 import taskManagerImg from "@/public/task-manager.png";
 import familyTreeImg from "@/public/bfsproject.jpg";
 import binaryGameImg from "@/public//binary-game.png";
+import humanforceLogo from "@/public/humanforceLogo.png";
+import uqLogo from "@/public/uqLogo.png";
+import youpayLogo from "@/public/youpayLogo.png";
+import m3Logo from "@/public/m3Logo.jpg";
 
 export const links = [
   {
@@ -45,6 +49,7 @@ export const experiencesData = [
       "Software engineer in the Humanforce platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
     icon: React.createElement(CgWorkAlt),
     date: "January 2024 - Present",
+    logo: humanforceLogo
   },
   {
     title: "Software Engineer",
@@ -53,6 +58,7 @@ export const experiencesData = [
       "Full-stack software engineer in the Application Development and Support team. Worked on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
     icon: React.createElement(CgWorkAlt),
     date: "November 2022 - January 2024",
+    logo: uqLogo
   },
   {
     title: "Developer",
@@ -61,6 +67,7 @@ export const experiencesData = [
       "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
     icon: React.createElement(CgWorkAlt),
     date: "February 2022 - November 2022",
+    logo: youpayLogo
   },
   {
     title: "Web Developer",
@@ -69,6 +76,7 @@ export const experiencesData = [
       "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
     icon: React.createElement(CgWorkAlt),
     date: "September 2021 - February 2022",
+    logo: m3Logo
   },
 ] as const;
 
