@@ -84,7 +84,7 @@ export const projectsData = [
   {
     title: "Developer Job Matching Portal",
     description:
-      "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
+      "Developer job matching portal for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
     tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
     icons: [
       "logos:laravel",
