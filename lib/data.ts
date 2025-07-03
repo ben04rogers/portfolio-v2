@@ -82,22 +82,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Crypto Sentiment Analysis",
-    description:
-      "Cryptocurrency sentiment analysis website based on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently posting on Twitter. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
-    tags: ["JavaScript", "React", "Express.js", "AWS"],
-    icons: [
-      "logos:aws",
-      "logos:javascript",
-      "logos:react",
-      "logos:bootstrap",
-      "logos:express",
-    ],
-    imageUrl: cryptoCrowdImg,
-    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
-    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
-  },
-  {
     title: "Developer Job Matching Portal",
     description:
       "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
@@ -112,6 +96,22 @@ export const projectsData = [
     imageUrl: ozdevsImg,
     // urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
     githubLink: "https://github.com/ben04rogers/ozdevs-v2",
+  },
+  {
+    title: "Crypto Sentiment Analysis",
+    description:
+      "Cryptocurrency sentiment analysis website based on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently posting on Twitter. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
+    tags: ["JavaScript", "React", "Express.js", "AWS"],
+    icons: [
+      "logos:aws",
+      "logos:javascript",
+      "logos:react",
+      "logos:bootstrap",
+      "logos:express",
+    ],
+    imageUrl: cryptoCrowdImg,
+    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
+    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
   },
   {
     title: "Company Asset Trading",
