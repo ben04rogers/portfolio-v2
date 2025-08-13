@@ -94,7 +94,6 @@ export const projectsData = [
       "logos:mysql",
     ],
     imageUrl: ozdevsImg,
-    // urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
     githubLink: "https://github.com/ben04rogers/ozdevs-v2",
   },
   {
@@ -122,24 +121,6 @@ export const projectsData = [
     imageUrl: assetTradingImg,
     githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
   },
-  // {
-  //   title: "Euphorus",
-  //   description:
-  //     "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
-  //   tags: ["JavaScript", "React", "Bootstrap"],
-  //   icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
-  //   imageUrl: euphorusImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment1",
-  // },
-  // {
-  //   title: "Country Happiness API",
-  //   description:
-  //     "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
-  //   tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
-  //   icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
-  //   imageUrl: euphorusBackendImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment2",
-  // },
   {
     title: "Computer Auction",
     description:
@@ -148,7 +129,6 @@ export const projectsData = [
     icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
     imageUrl: techprowlImg,
     githubLink: "https://github.com/ben04rogers/computer-auction",
-    // urlLink: "https://techprowl.herokuapp.com",
   },
   {
     title: "Task Manager Console App",
@@ -159,16 +139,16 @@ export const projectsData = [
     imageUrl: taskManagerImg,
     githubLink: "https://github.com/ben04rogers/task-manager",
   },
-  {
-    title: "Family Tree Relationship Path Finder",
-    description:
-      "Python program that computes the shortest paths in a family tree using a breadth-first search algorithm. Problem was to calculate the shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
-    tags: ["Python"],
-    icons: ["logos:python"],
-    imageUrl: familyTreeImg,
-    githubLink: "https://github.com/ben04rogers/breadth-first-search",
-    demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
-  },
+  // {
+  //   title: "Family Tree Relationship Path Finder",
+  //   description:
+  //     "Python program that computes the shortest paths in a family tree using a breadth-first search algorithm. Problem was to calculate the shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
+  //   tags: ["Python"],
+  //   icons: ["logos:python"],
+  //   imageUrl: familyTreeImg,
+  //   githubLink: "https://github.com/ben04rogers/breadth-first-search",
+  //   demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
+  // },
   {
     title: "Arduino Binary Game",
     description:
@@ -181,7 +161,6 @@ export const projectsData = [
   },
 ] as const;
 
-// lib/data.ts
 export const skillsData = [
   {
     category: "Backend",
@@ -201,7 +180,7 @@ export const skillsData = [
       { name: "Elasticsearch", icon: "logos:elasticsearch" },
       { name: "Logstash", icon: "logos:logstash" },
     ],
-  }, 
+  },
   {
     category: "Frontend",
     skills: [
@@ -215,7 +194,7 @@ export const skillsData = [
       { name: "Single Page Applications" },
       { name: "Responsive Design" }
     ],
-  }, 
+  },
   {
     category: "DevOps",
     skills: [
@@ -251,4 +230,3 @@ export const skillsData = [
     ],
   },
 ];
-
